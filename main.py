@@ -21,4 +21,5 @@ class A:
 
 
 abc = A()
-abc.CalculatePersistence(77)
+# abc.CalculatePersistence(77)
+abc.CalculatePersistence(679)
