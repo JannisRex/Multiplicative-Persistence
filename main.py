@@ -1,8 +1,9 @@
 class A:
-    def CalculatePersistence(self, x):
+    def CalculatePersistence(self, x, iterations=0):
         if len(str(x)) == 1:
             print(x)
-            return "abc"
+            print('Count of Iterations: ', str(iterations))
+            return "No more Multiplications possible"
 
         items = [int(i) for i in str(x)]
 
@@ -14,7 +15,9 @@ class A:
         if len(str(product)) != 1:
             print(product)
 
-        self.CalculatePersistence(product)
+        iterations += 1
+
+        self.CalculatePersistence(product, iterations)
 
 
 abc = A()
