@@ -11,7 +11,8 @@ class A:
         for j in items:
             product *= j
 
-        print(product)
+        if len(str(product)) != 1:
+            print(product)
 
         self.CalculatePersistence(product)
 
