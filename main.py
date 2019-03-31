@@ -12,7 +12,7 @@ class A:
         for j in items:
             product *= j
 
-        if len(str(product)) != 1:
+        if len(str(product)) > 1:
             print(product)
 
         iterations += 1
