@@ -2,7 +2,7 @@ class A:
     def CalculatePersistence(self, x, iterations=0):
         if len(str(x)) == 1:
             print(x)
-            print('Count of Iterations: ', str(iterations))
+            print('Multiplicative Persitence of: ', str(iterations))
             return "No more Multiplications possible"
 
         items = [int(i) for i in str(x)]
