@@ -22,4 +22,5 @@ class A:
 
 abc = A()
 # abc.CalculatePersistence(77)
-abc.CalculatePersistence(679)
+# abc.CalculatePersistence(679)
+abc.CalculatePersistence(3778888999)
